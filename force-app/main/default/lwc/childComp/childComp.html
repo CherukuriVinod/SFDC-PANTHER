@@ -1,0 +1,17 @@
+<template>
+    <p style="text-align:center"><strong>I am inside Child Comp</strong></p><br/>
+ 
+    <p>
+        {message}
+    </p>
+    <p>
+        {pageno}
+    </p>
+    <p>
+        <b>Date is {date}</b>
+    </p><BR/>
+    <lightning-button class="slds-align_absolute-center" label="Dispatch Event"
+        onclick={handleEvent}
+        variant="brand"
+    ></lightning-button>
+</template>
